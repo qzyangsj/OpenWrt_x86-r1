@@ -19,7 +19,6 @@ curl -sfL https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linu
 curl -sfL https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/ipq807x/patches-5.15/0606-5.15-qca-nss-ecm-bonding-add-bond_get_id.patch -o target/linux/ipq807x/patches-5.15/0606-5.15-qca-nss-ecm-bonding-add-bond_get_id.patch
 curl -sfL https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/ipq807x/patches-5.15/0902-5.15-arm64-provide-dma-cache-routines-with-same-API-as-32.patch -o target/linux/ipq807x/patches-5.15/0902-5.15-arm64-provide-dma-cache-routines-with-same-API-as-32.patch
 curl -sfL https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/ipq807x/patches-5.15/0903-5.15-arm64-mm-export-__dma_inv_area-and-__dma_clean_area.patch -o target/linux/ipq807x/patches-5.15/0903-5.15-arm64-mm-export-__dma_inv_area-and-__dma_clean_area.patch
-curl -sfL https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/ipq807x/patches-5.15/0903-5.15-arm64-mm-export-__dma_inv_area-and-__dma_clean_area.patch -o target/linux/ipq807x/patches-5.15/0903-5.15-arm64-mm-export-__dma_inv_area-and-__dma_clean_area.patch
 curl -sfL https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/ipq807x/patches-5.15/0905-export-ns.patch -o target/linux/ipq807x/patches-5.15/0905-export-ns.patch
 
 sed -i '/rm -rf $(KDIR)\/tmp/d' include/image.mk
